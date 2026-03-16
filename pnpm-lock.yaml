@@ -278,7 +278,7 @@ importers:
         version: 1.0.3
       matrix-js-sdk:
         specifier: github:matrix-org/matrix-js-sdk#develop
-        version: https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/d99363d288b8471e38892ec11fd9b37c062b85fe
+        version: https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/c2f9ad28fc1e694931536bbe64b2d4757dc0eb34
       matrix-widget-api:
         specifier: ^1.17.0
         version: 1.17.0
@@ -788,8 +788,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2(react@19.2.4)
       react-resizable-panels:
-        specifier: ^4.6.5
-        version: 4.7.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: ^4.7.3
+        version: 4.7.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react-virtuoso:
         specifier: ^4.14.0
         version: 4.18.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -7822,8 +7822,8 @@ packages:
   matrix-events-sdk@0.0.1:
     resolution: {integrity: sha512-1QEOsXO+bhyCroIe2/A5OwaxHvBm7EsSQ46DEDn8RBIfQwN5HWBpFvyWWR4QY0KHPPnnJdI99wgRiAl7Ad5qaA==}
 
-  matrix-js-sdk@https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/d99363d288b8471e38892ec11fd9b37c062b85fe:
-    resolution: {tarball: https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/d99363d288b8471e38892ec11fd9b37c062b85fe}
+  matrix-js-sdk@https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/c2f9ad28fc1e694931536bbe64b2d4757dc0eb34:
+    resolution: {tarball: https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/c2f9ad28fc1e694931536bbe64b2d4757dc0eb34}
     version: 41.1.0
     engines: {node: '>=22.0.0'}
 
@@ -9101,8 +9101,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-resizable-panels@4.7.2:
-    resolution: {integrity: sha512-1L2vyeBG96hp7N6x6rzYXJ8EjYiDiffMsqj3cd+T9aOKwscvuyCn2CuZ5q3PoUSTIJUM6Q5DgXH1bdDe6uvh2w==}
+  react-resizable-panels@4.7.3:
+    resolution: {integrity: sha512-PYcYMLtvJD+Pr0TQNeMvddcnLOwUa/Yb4iNwU7ThNLlHaQYEEC9MIBWHaBGODzYuXIkPRZ/OWe5sbzG1Rzq5ew==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -18721,7 +18721,7 @@ snapshots:
 
   matrix-events-sdk@0.0.1: {}
 
-  matrix-js-sdk@https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/d99363d288b8471e38892ec11fd9b37c062b85fe:
+  matrix-js-sdk@https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/c2f9ad28fc1e694931536bbe64b2d4757dc0eb34:
     dependencies:
       '@babel/runtime': 7.28.6
       '@matrix-org/matrix-sdk-crypto-wasm': 18.0.0
@@ -20150,7 +20150,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.2.10
 
-  react-resizable-panels@4.7.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  react-resizable-panels@4.7.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
